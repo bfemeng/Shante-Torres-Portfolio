@@ -66,7 +66,8 @@ h4 a:hover {
     margin-bottom: 25px;
     padding-top: .01%;
     padding-bottom: 5%;
-
+    font-weight: 950;
+    font-size: medium;
     background-image: linear-gradient(
     to bottom,
     rgba(233, 246, 244, 0.5),
@@ -121,12 +122,10 @@ h4 a:hover {
         rgba(8, 255, 193, 0.986)
       );
       text-align: center;
-    margin:50%
+    margin:5%
     height: 5px;
-    
     padding: 2px;
-    margin-top: 30px;
-    margin-bottom: 45px;
+    margin-top: 30px;   
 }
 
 
@@ -243,14 +242,15 @@ h4 a:hover {
     margin: auto;
     padding-bottom: 2%;
     font-size: larger;
+    font-weight: 1000;
     border-radius: 175px 175px 175px 175px;
 }
 
 .contact {
     background-color: rgb(8, 255, 193, 0.986);
-    padding: 1px;
+    padding: .5px;
     margin-top: 30px;
-    padding-bottom: 2%;
+    padding-bottom: .5%;
     border-radius: 175px 175px 175px 175px;
 }
 
@@ -267,7 +267,7 @@ h4 a:hover {
     font-size: 3em;
     max-width: 1600px;
     text-align: left;
-    margin-bottom: 0px;
+    
     margin-top: 40px;
     margin-bottom: 10px;
     line-height: 40px;
@@ -315,13 +315,6 @@ h4 a:hover {
     background-color: rgba(23, 243, 188, 0.952);
 }
 
-.selfimage {
-    margin-top: 2%;
-    padding: .2%;
-    background-image: linear-gradient(
-        to bottom,
-        rgb(255, 255, 255),
-        rgba(8, 255, 193, 0.986)
-      );
-    border-radius: 175px 175px 175px 175px;   
+.pic {
+    margin: auto;
 }
