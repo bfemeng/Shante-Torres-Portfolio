@@ -56,6 +56,21 @@ h4 a:hover {
     text-decoration: underline;
 }
 
+.containerDiv {
+    background-color: rgb(225,225,230);
+    border-radius: 175px 175px 175px 175px;
+    height: 475px;
+    padding: 1px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-bottom: 2%;
+    background-image: linear-gradient(
+    to bottom,
+    rgba(233, 246, 244, 0.5),
+    rgba(41, 185, 145, 0.473)
+  )
+}
 
 .rounded {
     border-radius: 175px 175px 175px 175px;
@@ -123,21 +138,13 @@ h4 a:hover {
     margin-right: auto;
     padding: 25px;
     margin-top: 50px;
-    margin-bottom: 55px;
-    border-radius: 40px 10px 40px 10px;
-    -moz-background-clip: padding;
-    -webkit-background-clip:border-box;
-    background-clip: padding-box;
+    margin-bottom: 45px;
+    border-radius: 175px 175px 175px 175px;
     align-content: center;
+    
 }
 
-.grid {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    max-width: 1600px;
-}
+
 
 .card {
     text-decoration: none;
@@ -214,9 +221,10 @@ h4 a:hover {
 
 
 .contact {
-    background-color: rgb(225,225,230);
+    background-color: rgb(72, 240, 207);
     padding: 1px;
     margin: auto;
+    padding-bottom: 2%;
 }
 
 .contact-body {
@@ -225,6 +233,7 @@ h4 a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .contact h2 {
@@ -240,7 +249,7 @@ h4 a:hover {
     color: white;
     text-align: center;
     align-content: center;
-    width: 100%;
+    width: 50%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -258,8 +267,11 @@ h4 a:hover {
 
 .card-body {
     background-color: white;
+    text-align: center;
+    align-content: center;
     align-items: center;
     height: auto;
+    width: 50%;
     display: block;
     margin-left: 0px;
     margin-right: 0px;
