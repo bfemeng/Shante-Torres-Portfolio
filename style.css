@@ -1,11 +1,11 @@
 body {
     height: 100%;
     color: #070104;
-    background-color: rgb(168, 68, 112);
+    background-color: rgba(255, 0, 187, 0.685);
     margin: 0px;
     line-height: 30px;
     display: block;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
 }
 
@@ -64,7 +64,9 @@ h4 a:hover {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 25px;
-    padding-bottom: 2%;
+    padding-top: .01%;
+    padding-bottom: 5%;
+
     background-image: linear-gradient(
     to bottom,
     rgba(233, 246, 244, 0.5),
@@ -78,6 +80,7 @@ h4 a:hover {
     background-clip: padding-box;
     -moz-background-clip: padding;
     -webkit-transform: translateZ(0);
+    margin-top: 30px;
 }
 
 .coverArt {
@@ -90,14 +93,42 @@ h4 a:hover {
     margin-right: auto;
     margin-bottom: 20px;
     padding: 0px;
+    margin-top: 30px;
 }
 
 
 .coverDiv {
-    height: 150px;
-    position: relative;
-    padding-top: 40px;
+    border-radius: 175px 175px 175px 175px;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(19, 201, 155, 0.733)
+      );
+      text-align: center;
+    margin:
+    height: 75px;
+   
+    padding: 2px;
+    margin-top: 50px;
+    margin-bottom: 45px;
 }
+
+.projectheader {
+    border-radius: 175px 175px 175px 175px;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(19, 201, 155, 0.733)
+      );
+      text-align: center;
+    margin:50%
+    height: 5px;
+    
+    padding: 2px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
 
 .footer {
     height: 20px;
@@ -137,23 +168,11 @@ h4 a:hover {
     margin-left: auto;
     margin-right: auto;
     padding: 25px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 45px;
     border-radius: 175px 175px 175px 175px;
     align-content: center;
     
-}
-
-
-
-.card {
-    text-decoration: none;
-    position: relative;
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    align-items: center;
-
 }
 
 .item {
@@ -182,7 +201,7 @@ h4 a:hover {
 }
 
 .subtitle {
-    color: #999999;
+    color: #780000;
     font-weight: bold;
     height: 20px;
     line-height: 20px;
@@ -218,13 +237,21 @@ h4 a:hover {
     padding-bottom: 0px;
 }
 
-
-
-.contact {
+.appdescribe {
     background-color: rgb(72, 240, 207);
     padding: 1px;
     margin: auto;
     padding-bottom: 2%;
+    font-size: larger;
+    border-radius: 175px 175px 175px 175px;
+}
+
+.contact {
+    background-color: rgb(72, 240, 207);
+    padding: 1px;
+    margin-top: 30px;
+    padding-bottom: 2%;
+    border-radius: 175px 175px 175px 175px;
 }
 
 .contact-body {
@@ -233,7 +260,7 @@ h4 a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-top: 30px;
 }
 
 .contact h2 {
@@ -257,7 +284,7 @@ h4 a:hover {
     margin-bottom: 0px;
     margin-top: 5px;
     padding: 0px;
-    border-radius: 30px 30px 0px 0px;
+    border-radius: 35px 35px 35px 35px;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     -moz-background-clip: padding;
@@ -265,45 +292,28 @@ h4 a:hover {
 }
 
 
-.card-body {
-    background-color: white;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    height: auto;
-    width: 50%;
-    display: block;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    margin-top: 0px;
-    padding: auto;
-    border-radius: 0px 0px 30px 30px;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    -moz-background-clip: padding;
-    -webkit-transform: translateZ(0);
-}
 
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(
+        to bottom,
+        rgb(255, 255, 255),
+        rgba(19, 201, 155, 0.733)
+      );
+    border-radius: 175px 175px 175px 175px;
+    font-weight: 800;
 }
 
 .topnav a {
     display: block;
-    color: #fbf2f6;
+    color: #000000;
     text-align: center;
-    padding: 30px 30px;
+    padding: 40px 0px;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 100px;
 }
 
 .topnav a:hover {
-    background-color: rgb(142,142,147);;
+    background-color: rgba(23, 243, 188, 0.952);
 }
-
-
-
-
